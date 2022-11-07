@@ -67,6 +67,7 @@ namespace FindPrimes
             return primeCount;
         }
 
+        // The Sieve of Eratosthenes
         public bool IsPrime(int value)
         {
             if (primes[value])
